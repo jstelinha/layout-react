@@ -1,10 +1,9 @@
-import styles from './Sobre.module.css'
 
 export function Sobre(){
 
     return(
-        <div className={styles.Sobre}> 
-            Sobre
+        <div className="flex"> 
+            <h1 className="font-bold text-4xl"> Sobre </h1>
         </div>
     )
 }
