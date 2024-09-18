@@ -31,6 +31,7 @@ export function Menu() {
                 <NavLink to="home" className={getEstilo}> <IconHome />Home </NavLink>
                 <NavLink to="contato" className={getEstilo}> <IconAddressBook /> Contato </NavLink>
                 <NavLink to="sobre" className={getEstilo}> <IconInfoCircle /> Sobre </NavLink>
+                <NavLink to="estado1" className={getEstilo}> <IconInfoCircle /> Estado 1 </NavLink>
             </nav>
 
             <footer className="absolute bottom-0 p-2 ">
